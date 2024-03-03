@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 3rem;
+  flex-wrap: wrap;
+}
+
+.links {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.logoStart{
+  color: #fb8500;
+}
+
+.logo {
+  flex: 1;
+}
+.logoText,
+.logo a {
+  text-decoration: none;
+  color: rgba(255,255,255,1);
+}
+.logoText , .links a{
+  position: relative;
+  display: inline-block;
+}
+
+.links a:hover {
+  /* color: #b6ddff; */
+  /* border-bottom: 0.2rem solid #9cd1ff; */
+  /* border-radius: 1rem; */
+  /* transition: width 0.5s ease-in-out; */
+}
+
+.logoText::before, .links a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0.3rem;
+  background-color: #fb8500;
+  
+  /* border-radius: 0.5rem; */
+  /* transition: width 0.5s ease; */
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.logoText:hover::before , .links a:hover::before{
+  width: 100%;
+  left: 0;
+  
+}
+
