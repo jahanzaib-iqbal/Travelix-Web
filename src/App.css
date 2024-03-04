@@ -1,5 +1,23 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.MainApp{
+/* background: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* background-color: white; */
+
+
+}
+body{
+/* background-color: #0cbaba; */
+/* background: linear-gradient(315deg, #0cbaba 0%, #380036 74%); */
+/* background-color: white !important; */
+background-color: white;
+background: white;
 }
 
 .App-logo {

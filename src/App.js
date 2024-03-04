@@ -7,18 +7,22 @@ import CarMain from "./Pages/Car/CarMain";
 import TravelClubMain from "./Pages/TravelClub/TravelClubMain";
 // import "../src/styles/Home.css"
 import Footer from "./components/common/Footer";
-// import "App.css"
+import Navbar from "./components/common/Navbar";
+import "./App.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomeScreen />} />
-          <Route path="/hotel" element={<HotelMain />} />
-          <Route path="/car" element={<CarMain />} />
-          <Route path="/travel-club" element={<TravelClubMain />} />
-        </Routes>
-      </BrowserRouter>
+      <div className="MainApp">
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+            <Route path="/hotel" element={<HotelMain />} />
+            <Route path="/car" element={<CarMain />} />
+            <Route path="/travel-club" element={<TravelClubMain />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   );
 }

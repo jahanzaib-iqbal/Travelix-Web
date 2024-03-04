@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainSection {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+height: 90vh;
+
+}
+
+.TitleContainer {
+  height: 70vh;
+  width: 43vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainTitle {
+  font-size: 5.6vw;
+  letter-spacing: 0.1rem;
+  width: 50vw;
+  padding-left: 8%;
+  padding-top: 2%;
+  color: white;
+}
+.HeroSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HeroImageContainer {
+  width: 57vw;
+  display: flex;
+  /* height: 90vh; */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.HeroImage {
+  border-radius: 50rem;
+  max-width: 100%;
+  height: 30rem;
+  user-select: none; /* Prevent text selection */
+  pointer-events: none;
+  animation: slideFromRight 1s ease-out;
+}
+
+.mainTitle,
+.underlineEnjoy {
+  animation: slideIn 1s ease-out;
+}
+
+.underlineEnjoy {
+  position: relative;
+  display: inline-block;
+  /* background-image: linear-gradient(to right, red, blue); */
+  /* background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); */
+  /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+  /* background-color: #fad961; */
+  background-image: linear-gradient(90deg, #fad961 0%, #f76b1c 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.underlineEnjoy::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0.4rem;
+  background-color: #fb8500;
+  /* width: 100%; */
+
+}
+
+.custom-shape-divider-bottom-1709491773 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1709491773 svg {
+  position: relative;
+  display: block;
+  width: calc(300% + 1.3px);
+  height: 288px;
+}
+
+.custom-shape-divider-bottom-1709491773 .shape-fill {
+  fill: #fff;
+}
+
+/* Animations */
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideFromRight {
+  from {
+    /* transform: translateY(100%); */
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translate(0%, 0%) translateY(10%);
+  }
+  50% {
+    transform: translate(0%, 0%) translateY(-10%);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
