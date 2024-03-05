@@ -1,0 +1,115 @@
+/* CardComponent.css */
+
+.card-container {
+  position: relative;
+  width: 22rem;
+  height: 25rem;
+  overflow: hidden;
+  /* border: 1px solid #ddd; */
+  border-radius: 0.8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* background-color: #f8f8f8; */
+}
+
+.image-container {
+  max-width: 100%;
+  height: 66.67%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  display: block; /* This ensures no extra space below the image */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 85%;
+  /* width: 100%; */
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  color: #fb8500; /* Gold color for stars */
+}
+
+.reviews {
+  margin-left: 1rem;
+  color: #000;
+}
+
+.favorite-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.favorite-icon.favorited {
+  color: red;
+}
+
+.details-container {
+  padding: 10px;
+}
+
+.arrow {
+  position: absolute;
+  top: 33%;
+  /* transform: translateY(-50%); */
+  font-size: 2rem;
+  cursor: pointer;
+  color: #111;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 50rem;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.left {
+  left: 0.7rem;
+}
+
+.right {
+  right: 0.7rem;
+}
+
+.dot-container {
+  position: absolute;
+  bottom: 35%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 2550, 0.6);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dot.active {
+  background-color: #fff;
+}
