@@ -1,0 +1,15 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.card-icon {
+    width: 50px;
+}
+
+.card h2 {
+   margin-bottom: 10px; 
+}
