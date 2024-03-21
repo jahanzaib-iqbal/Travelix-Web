@@ -80,20 +80,7 @@ const HomeScreen = () => {
 
       <section className="trip-steps">
       <h2>Book Your Next <span>Trip</span> in 3 Easy Steps</h2>
-      <div className="steps">
-        <div className="step">
-          <h3>Choose Destination</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
-        </div>
-        <div className="step">
-          <h3>Make Payment</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
-        </div>
-        <div className="step">
-          <h3>Reach Airport on Selected Date</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
-        </div>
-      </div>
+      
     </section>
     </>
   );

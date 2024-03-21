@@ -15,7 +15,7 @@ const Card = (props) => {
     >
       <div className="icon-wrapper">
         <img
-          src={isHovered ? iconBgHover : iconBg}
+          src={isHovered ?  iconBg : iconBgHover}
           alt="Background"
           className="icon-bg"
         />
