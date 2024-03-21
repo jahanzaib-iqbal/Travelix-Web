@@ -1,15 +1,43 @@
 .card {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    width: 300px;
+    position: relative;
+    padding: 2rem;
+    margin: 2rem;
+    width: 15rem;
+    transition: box-shadow 0.3s, border-radius 0.3s, transform 0.3s; /* Added transform transition */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
 
-.card-icon {
-    width: 50px;
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.05); /* Translates above and adds zoom effect */
 }
 
 .card h2 {
-   margin-bottom: 10px; 
+    margin-bottom: 10px;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.icon-bg {
+  position: absolute;
+  /* top: 0; */
+  right: 2rem;
+  top:-3rem;
+  z-index: -1;
+}
+
+.card:hover {
+  opacity: 1; /* Show on hover */
+}
+
+.cardIconsImg{
+    max-width: 5rem;
 }

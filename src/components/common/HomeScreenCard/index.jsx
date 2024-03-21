@@ -1,14 +1,33 @@
-import React from 'react';
-import './styles.css';
+import React, { useState } from "react";
+import "./styles.css";
+import iconBg from "../../../assets/icons/icon-bg.svg";
+import iconBgHover from "../../../assets/icons/icon-bg-hover.svg";
+import hotelIcon from "../../../assets/icons/hotelIcon.png";
 
-const Card = () => {
-    return (
-        <div className="card">
-            <img src="microphone-icon.png" alt="Microphone" className="card-icon"/>
-            <h2>Local Events</h2>
-            <p>Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
-        </div>
-    );
-}
+const Card = (props) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <div
+      className="card"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <div className="icon-wrapper">
+        <img
+          src={isHovered ? iconBgHover : iconBg}
+          alt="Background"
+          className="icon-bg"
+        />
+      </div>
+      {props.svg}
+     
+      <hotelIcon />
+      {/* <img className="cardIconsImg" src={hotelIcon} /> */}
+      <h2>{props.title}</h2>
+      <p>{props.desc}</p>
+    </div>
+  );
+};
 
 export default Card;
