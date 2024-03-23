@@ -7,7 +7,7 @@ import Card from "../../components/common/HomeScreenCard/index";
 import { ReactComponent as PaymentIcon } from "../../assets/icons/payment.svg";
 import { ReactComponent as CarIcon } from "../../assets/icons/car.svg";
 import { ReactComponent as DestinationIcon } from "../../assets/icons/destination.svg";
-import tripSectionImage from "../../assets/images/tripSection (1).jpg"
+import tripSectionImage from "../../assets/images/tripSection (1).jpg";
 
 const HomeScreen = () => {
   const hotelIcon = (
@@ -67,18 +67,6 @@ const HomeScreen = () => {
   return (
     <>
       <HeroSection />
-      {/* <div
-        style={{
-          margin: "2rem",
-          display: "flex",
-          justifyContent: "space-around",
-          flexWrap: "wrap",
-        }}
-      >
-        <CardComponent reviewsNum={23} title="dsfdsfd" />
-        <CardComponent/>
-        
-      </div> */}
 
       <h1 className="Main-Tagline">We Offer Best Services</h1>
       <div className="main-card-contanier">
@@ -102,43 +90,57 @@ const HomeScreen = () => {
       <section className="trip-steps-section">
         <div className="trip-headings">
           <div className="trip-step-title">
-            <h2>
-              Book Your Next <span>Trip</span> in 3 Easy Steps
-            </h2>
+            <h1>
+              Book Your Next <span>Trip</span> In 3 Easy Steps
+            </h1>
           </div>
-          <div className="steps">
-            <DestinationIcon />
-            <div className="steps-subheadings">
-              <h3>Choose Destination</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
-              </p>
+          <div className="trip-steps-container">
+            <div className="steps">
+              <DestinationIcon />
+              <div className="steps-subheadings">
+                <h3>Choose Destination</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="steps">
-            <PaymentIcon />
-            <div className="steps-subheadings">
-              <h3>Choose Destination</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
-              </p>
+            <div className="steps">
+              <PaymentIcon />
+              <div className="steps-subheadings">
+                <h3>Choose Destination</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="steps">
-            <CarIcon />
-            <div className="steps-subheadings">
-              <h3>Choose Destination</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
-              </p>
+            <div className="steps">
+              <CarIcon />
+              <div className="steps-subheadings">
+                <h3>Choose Destination</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+                  tortor tempus.
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div className="steps-image">
-          <img src={tripSectionImage}/>
+          <img src={tripSectionImage} />
+        </div>
+      </section>
+
+      <section className="trending-container">
+        <h1>Trending Hotel </h1>
+        <div className="trending">
+          <CardComponent reviewsNum={23} title="dsfdsfd" />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
+          <CardComponent />
         </div>
       </section>
     </>

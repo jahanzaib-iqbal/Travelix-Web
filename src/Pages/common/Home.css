@@ -1,20 +1,88 @@
-.Main-Tagline{
-    /* margin-top: 10%; */
-    text-align: center;
-    margin-top: 3rem;
+.Main-Tagline {
+  /* margin-top: 10%; */
+  text-align: center;
+  margin-top: 3rem;
 }
 
-.main-card-contanier{
-    margin: 2rem 10rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.main-card-contanier {
+  margin: 2rem 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /* ======> Trip Steps Section <====== */
 
-.trip-steps-section{
-  
+.trip-steps-section {
+  display: flex;
+  margin: 8rem 3rem;
+  gap: 2rem;
+}
+.trip-headings {
+  flex: 1;
+  /* background-color: green; */
+}
+
+.trip-step-title {
+  margin-bottom: 3rem;
+}
+.trip-step-title h1 {
+  font-size: 4.5vw;
+}
+
+.trip-step-title span {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(180deg, #ffc800 0%, #f76b1c 100%);
+}
+
+.trip-steps-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.steps {
+  display: flex;
+  gap: 1rem;
+}
+.steps-subheadings {
+  flex: 6;
+  flex-wrap: wrap;
+}
+.steps-subheadings h3,
+.steps-subheadings p {
+  color: #444;
+  line-height: 1.5;
+}
+.steps svg {
+  flex: 1;
+  max-width: 3rem;
+}
+
+.steps-image {
+  /* background-color: red; */
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.steps-image img {
+  max-width: 95%;
+  border-radius: 2rem;
+}
+
+/* ======> Trendning Section <========== */
+
+.trending {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* flex-wrap: "wrap"; */
+  flex-wrap: wrap;
+  gap: 2rem;
 }
