@@ -71,18 +71,42 @@
   align-items: flex-end;
 }
 
+
 .steps-image img {
   max-width: 95%;
   border-radius: 2rem;
+  transition: transform 0.3s ease-out, filter 0.3s ease-out;
 }
 
+
+
+.steps-image:hover img {
+  transform: scale(1.05); /* Scale Transformation */
+  filter: brightness(0.9); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+
+
 /* ======> Trendning Section <========== */
+
+.trending-container {
+  margin-bottom: 3rem ;
+}
 
 .trending {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  /* flex-wrap: "wrap"; */
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 5rem;
 }
+
+.trending-container h1{
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+

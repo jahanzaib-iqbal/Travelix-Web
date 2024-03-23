@@ -2,18 +2,11 @@
 
 import React, { useState } from "react";
 import "./CardComponent.css";
-import image1 from "../../assets/images/image (1).jpg";
-import image2 from "../../assets/images/image (2).jpg";
-import image3 from "../../assets/images/image (3).jpg";
-import image4 from "../../assets/images/image (4).jpg";
-import image5 from "../../assets/images/image (5).jpg";
-import image6 from "../../assets/images/image (6).jpg";
 import { FiHeart, FiStar } from "react-icons/fi"; // Import heart and star icons
 import { FaHeart, FaStar } from "react-icons/fa";
-import { FaStarHalfStroke } from "react-icons/fa6";
 
 const CardComponent = (props) => {
-  const images = [image1, image2, image3, image4, image5, image6];
+  const { images, title, reviewsNum } = props; // Destructure images, title, and reviewsNum from props
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFavorited, setIsFavorited] = useState(false);
@@ -37,6 +30,8 @@ const CardComponent = (props) => {
   const handleDotClick = (index) => {
     setCurrentImageIndex(index);
   };
+
+  const starSvg = <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#000" d="m5.825 21l1.625-7.025L2 9.25l7.2-.625L12 2l2.8 6.625l7.2.625l-5.45 4.725L18.175 21L12 17.275z"/></svg>
 
   return (
     <div className="card-container">
@@ -63,7 +58,7 @@ const CardComponent = (props) => {
             viewBox="0 0 24 24"
           >
             <path
-              fill="currentColor"
+              fill="#555"
               d="m11.29 12l3.54-3.54a1 1 0 0 0 0-1.41a1 1 0 0 0-1.42 0l-4.24 4.24a1 1 0 0 0 0 1.42L13.41 17a1 1 0 0 0 .71.29a1 1 0 0 0 .71-.29a1 1 0 0 0 0-1.41Z"
             />
           </svg>
@@ -76,22 +71,24 @@ const CardComponent = (props) => {
             viewBox="0 0 24 24"
           >
             <path
-              fill="currentColor"
+              fill="#555"
               d="m11.29 12l3.54-3.54a1 1 0 0 0 0-1.41a1 1 0 0 0-1.42 0l-4.24 4.24a1 1 0 0 0 0 1.42L13.41 17a1 1 0 0 0 .71.29a1 1 0 0 0 .71-.29a1 1 0 0 0 0-1.41Z"
             />
           </svg>
         </div>
       </div>
       <div className="details-container">
-        <div className="title">{props.title}</div>
-        <div className="ratings">
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FaStar />
-          <FiStar />
-          <span className="reviews">({props.reviewsNum} reviews)</span>
+        <div className="title">
+          {title}
+          <span className="reviews">
+            {props.reviews}
+            {starSvg}
+          </span>
         </div>
+        <div>{props.city}</div>
+        <div> {props.description}</div>
+
+        <h4 className="price"> {props.price} $ </h4>
       </div>
 
       <div className="dot-container">

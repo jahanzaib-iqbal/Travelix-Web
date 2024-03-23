@@ -8,6 +8,12 @@ import { ReactComponent as PaymentIcon } from "../../assets/icons/payment.svg";
 import { ReactComponent as CarIcon } from "../../assets/icons/car.svg";
 import { ReactComponent as DestinationIcon } from "../../assets/icons/destination.svg";
 import tripSectionImage from "../../assets/images/tripSection (1).jpg";
+import image1 from "../../assets/images/image (1).jpg";
+import image2 from "../../assets/images/image (2).jpg";
+import image3 from "../../assets/images/image (3).jpg";
+import image4 from "../../assets/images/image (4).jpg";
+import image5 from "../../assets/images/image (5).jpg";
+import image6 from "../../assets/images/image (6).jpg";
 
 const HomeScreen = () => {
   const hotelIcon = (
@@ -109,7 +115,7 @@ const HomeScreen = () => {
             <div className="steps">
               <PaymentIcon />
               <div className="steps-subheadings">
-                <h3>Choose Destination</h3>
+                <h3>Make Payment</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                   tortor tempus.
@@ -119,7 +125,7 @@ const HomeScreen = () => {
             <div className="steps">
               <CarIcon />
               <div className="steps-subheadings">
-                <h3>Choose Destination</h3>
+                <h3>Reach on Time</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                   tortor tempus.
@@ -136,13 +142,60 @@ const HomeScreen = () => {
       <section className="trending-container">
         <h1>Trending Hotel </h1>
         <div className="trending">
-          <CardComponent reviewsNum={23} title="dsfdsfd" />
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
+          <CardComponent
+            images={[image1, image2, image3, image4, image5, image6]}
+            title="Lexus Hotel"
+            city="Hunza"
+            description="Lorem ipsum dolor sit"
+            price= "231"
+            reviews={4.8}
+          />
+          <CardComponent
+            images={[image2, image1, image4, image6]}
+            reviews={4.8}
+            title="Red and White"
+            city="Islamabad"
+            description="Lore sdd das dolor sit"
+            price= "100"
+          />
+          <CardComponent
+            images={[image3, image2, image4, image5, image6]}
+            reviews={4.83}
+            title="Pearl Continental"
+            city="Lahore"
+            description="Lorem fisiofus dsf sit"
+            price= "872"
+          />
+          <CardComponent
+            images={[image4, image2, image3, image5, image6]}
+            reviews={4.8}
+            title="Stay Inn"
+            city="Lahore"
+            description="jdshfkjb Lorem ipsum dolor sit"
+            price= "120"
+          />
+          <CardComponent
+            images={[image5, image2, image3, image4, image6]}
+            reviews={4.8}
+            title="Ouff Hasds"
+            city="Sakardu"
+            description="Lsakas orem ipsum dolor sit"
+            price= "31"
+          />
+          <CardComponent
+            images={[image6, image2, image3, image4, image5]}
+            reviews={4.8}
+            title="Hullululul"
+            city="Karachi"
+            description="jsadhuash jhasdjbsah  dolor sit"
+            price= "231"
+          />
+
+         
         </div>
       </section>
+
+
     </>
   );
 };
