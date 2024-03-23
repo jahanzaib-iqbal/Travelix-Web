@@ -13,33 +13,8 @@
 }
 
 
+/* ======> Trip Steps Section <====== */
 
-.trip-steps {
-    text-align: center;
-    padding: 50px 0;
-  }
+.trip-steps-section{
   
-  .trip-steps h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-  
-  .steps {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .step {
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: 300px;
-  }
-  
-  .step h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-  }
-  
+}

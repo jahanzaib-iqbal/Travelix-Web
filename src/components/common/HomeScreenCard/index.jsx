@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./styles.css";
 import iconBg from "../../../assets/icons/icon-bg.svg";
 import iconBgHover from "../../../assets/icons/icon-bg-hover.svg";
-import hotelIcon from "../../../assets/icons/hotelIcon.png";
 
 const Card = (props) => {
   const [isHovered, setIsHovered] = useState(false);
