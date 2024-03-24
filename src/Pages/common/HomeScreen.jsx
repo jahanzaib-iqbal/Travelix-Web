@@ -14,6 +14,7 @@ import image3 from "../../assets/images/image (3).jpg";
 import image4 from "../../assets/images/image (4).jpg";
 import image5 from "../../assets/images/image (5).jpg";
 import image6 from "../../assets/images/image (6).jpg";
+import TestimonialCarousel from "../../components/common/TestimonialsSection";
 
 const HomeScreen = () => {
   const hotelIcon = (
@@ -140,14 +141,14 @@ const HomeScreen = () => {
       </section>
 
       <section className="trending-container">
-        <h1>Trending Hotel </h1>
+        <h1 className="section-heading">Trending Hotel </h1>
         <div className="trending">
           <CardComponent
             images={[image1, image2, image3, image4, image5, image6]}
             title="Lexus Hotel"
             city="Hunza"
             description="Lorem ipsum dolor sit"
-            price= "231"
+            price="231"
             reviews={4.8}
           />
           <CardComponent
@@ -156,7 +157,7 @@ const HomeScreen = () => {
             title="Red and White"
             city="Islamabad"
             description="Lore sdd das dolor sit"
-            price= "100"
+            price="100"
           />
           <CardComponent
             images={[image3, image2, image4, image5, image6]}
@@ -164,7 +165,7 @@ const HomeScreen = () => {
             title="Pearl Continental"
             city="Lahore"
             description="Lorem fisiofus dsf sit"
-            price= "872"
+            price="872"
           />
           <CardComponent
             images={[image4, image2, image3, image5, image6]}
@@ -172,7 +173,7 @@ const HomeScreen = () => {
             title="Stay Inn"
             city="Lahore"
             description="jdshfkjb Lorem ipsum dolor sit"
-            price= "120"
+            price="120"
           />
           <CardComponent
             images={[image5, image2, image3, image4, image6]}
@@ -180,7 +181,7 @@ const HomeScreen = () => {
             title="Ouff Hasds"
             city="Sakardu"
             description="Lsakas orem ipsum dolor sit"
-            price= "31"
+            price="31"
           />
           <CardComponent
             images={[image6, image2, image3, image4, image5]}
@@ -188,14 +189,14 @@ const HomeScreen = () => {
             title="Hullululul"
             city="Karachi"
             description="jsadhuash jhasdjbsah  dolor sit"
-            price= "231"
+            price="231"
           />
-
-         
         </div>
       </section>
-
-
+      <section className="testimonial-section">
+      <h1 className="section-heading">Trending Hotel </h1>
+        <TestimonialCarousel />
+      </section>
     </>
   );
 };

@@ -71,29 +71,22 @@
   align-items: flex-end;
 }
 
-
 .steps-image img {
   max-width: 95%;
   border-radius: 2rem;
   transition: transform 0.3s ease-out, filter 0.3s ease-out;
 }
 
-
-
 .steps-image:hover img {
   transform: scale(1.05); /* Scale Transformation */
-  filter: brightness(0.9); 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
-
-
+  filter: brightness(0.9);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
-
-
 
 /* ======> Trendning Section <========== */
 
 .trending-container {
-  margin-bottom: 3rem ;
+  margin-bottom: 3rem;
 }
 
 .trending {
@@ -104,9 +97,27 @@
   gap: 5rem;
 }
 
-.trending-container h1{
+.section-heading {
   font-size: 2rem;
   text-align: center;
   margin: 3rem 0;
+  position: relative;
+}
+.section-heading::before {
+  content: "";
+  width: 10rem;
+  height: 0.4rem;
+  border-radius: 1rem;
+  background-color: #fff1da;
+  position: absolute;
+  top: 2.8rem;
+  right: 40rem;
+
 }
 
+
+/* ========>  Testimonial Section  <==========  */
+
+.testimonial-section {
+  margin-top: 10rem;
+}
