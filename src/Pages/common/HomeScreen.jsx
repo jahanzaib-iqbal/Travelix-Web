@@ -212,8 +212,8 @@ const HomeScreen = () => {
           <BlueUnderline />
         </div>
       <section className="newsLetter-section">
-        <div className="section-container">
-          <div className="image-container">
+        <div className="NLettersection-container">
+          <div className="NLetterimage-container">
             <img src={newsLtterImage} alt="House and pool" />
           </div>
           <div className="form-container">

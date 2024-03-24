@@ -1,26 +1,22 @@
-/* CardComponent.css */
-
 .card-container {
+  margin: 2rem;
   position: relative;
   width: 20rem;
   height: 25rem;
   overflow: hidden;
   border-radius: 0.8rem;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  user-select:none;
+  user-select: none;
   transition: box-shadow 0.3s, border-radius 0.3s, transform 0.3s; /* Added transform transition */
-
 }
 
-.card-container:hover{
+.card-container:hover {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-5px) scale(1.05); /* Translates above and adds zoom effect */
-
-
 }
 
-img{
+img {
   pointer-events: none;
 }
 

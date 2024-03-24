@@ -127,47 +127,41 @@
   align-items: center;
   justify-content: center;
 }
-.newsLetterHeading{
+.newsLetterHeading {
   margin: 3rem 0 0 0;
 }
-.section-container {
+.NLettersection-container {
   display: flex;
   flex-direction: row;
   /* width: 100%; */
 }
 
-.image-container {
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 0rem;
-  border-top-right-radius: 0rem;
+.NLetterimage-container {
   width: 20vw;
   padding: 0;
   margin: 0;
-
 }
 
-.image-container img{
+.NLetterimage-container img {
   width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 }
 
 .form-container {
-  background-color: #f3f3f3; 
+  background-color: #f3f3f3;
   text-align: center;
-  border-top-right-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
-  border-bottom-left-radius: 0rem;
-  border-top-left-radius: 0rem;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50vw;
-}
 
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
 
 .form-container p {
   margin-bottom: 20px;
@@ -177,7 +171,7 @@
   display: block;
   margin-bottom: 5px;
 }
-form{
+form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,7 +186,7 @@ form input[type="email"] {
   outline: none;
 }
 
-form div{
+form div {
   position: relative;
   display: flex;
   justify-content: center;
@@ -209,12 +203,11 @@ form div{
   padding: 1.3rem 2rem;
   border: none;
   border-radius: 35rem;
-  transition:  all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .form-container button:hover {
   cursor: pointer;
   background-color: #1296a8;
-  transition:  all 0.3s ease;
-
+  transition: all 0.3s ease;
 }
