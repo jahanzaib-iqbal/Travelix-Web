@@ -8,6 +8,8 @@ import TravelClubMain from "./Pages/TravelClub/TravelClubMain";
 // import "../src/styles/Home.css"
 import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
+import LoginPage from "./Pages/common/LoginPage/index";
+import SignupPage from "./Pages/common/SignupPage/index";
 import "./App.css";
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/hotel" element={<HotelMain />} />
             <Route path="/car" element={<CarMain />} />
             <Route path="/travel-club" element={<TravelClubMain />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignupPage />} />
           </Routes>
         </BrowserRouter>
       </div>

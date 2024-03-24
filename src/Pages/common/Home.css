@@ -171,14 +171,14 @@
   display: block;
   margin-bottom: 5px;
 }
-form {
+.newsForm {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 70%;
 }
 
-form input[type="email"] {
+.newsForm input[type="email"] {
   padding: 1.8rem;
   width: 30vw;
   border: none;
@@ -186,7 +186,7 @@ form input[type="email"] {
   outline: none;
 }
 
-form div {
+.newsForm div {
   position: relative;
   display: flex;
   justify-content: center;

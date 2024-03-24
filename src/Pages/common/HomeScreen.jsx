@@ -219,7 +219,7 @@ const HomeScreen = () => {
           <div className="form-container">
             <h2>Get special offers, and more from travelworld</h2>
             <p>Rreceive exclusive deals on travel, vacations, and more.</p>
-            <form>
+            <form className="newsForm">
               <div>
               <input
                 type="email"
