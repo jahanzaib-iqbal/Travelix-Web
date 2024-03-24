@@ -8,6 +8,7 @@ import { ReactComponent as PaymentIcon } from "../../assets/icons/payment.svg";
 import { ReactComponent as CarIcon } from "../../assets/icons/car.svg";
 import { ReactComponent as DestinationIcon } from "../../assets/icons/destination.svg";
 import tripSectionImage from "../../assets/images/tripSection (1).jpg";
+import newsLtterImage from "../../assets/images/tripSection (2).jpg";
 import image1 from "../../assets/images/image (1).jpg";
 import image2 from "../../assets/images/image (2).jpg";
 import image3 from "../../assets/images/image (3).jpg";
@@ -15,6 +16,8 @@ import image4 from "../../assets/images/image (4).jpg";
 import image5 from "../../assets/images/image (5).jpg";
 import image6 from "../../assets/images/image (6).jpg";
 import TestimonialCarousel from "../../components/common/TestimonialsSection";
+import { ReactComponent as BlueUnderline } from "../../assets/icons/underlineBlue.svg";
+import { ReactComponent as GradientUnderline } from "../../assets/icons/underlineGradient.svg";
 
 const HomeScreen = () => {
   const hotelIcon = (
@@ -141,7 +144,10 @@ const HomeScreen = () => {
       </section>
 
       <section className="trending-container">
-        <h1 className="section-heading">Trending Hotel </h1>
+        <div className="heading-Ucontainer">
+          <h1 className="section-heading">Trending Hotel </h1>
+          <BlueUnderline />
+        </div>
         <div className="trending">
           <CardComponent
             images={[image1, image2, image3, image4, image5, image6]}
@@ -194,8 +200,39 @@ const HomeScreen = () => {
         </div>
       </section>
       <section className="testimonial-section">
-      <h1 className="section-heading">Trending Hotel </h1>
+        <div className="heading-Ucontainer">
+          <h1 className="section-heading">Testimonials </h1>
+          <BlueUnderline />
+        </div>
         <TestimonialCarousel />
+      </section>
+
+      <div className="heading-Ucontainer newsLetterHeading">
+          <h1 className="section-heading ">Subscribe To News Letter </h1>
+          <BlueUnderline />
+        </div>
+      <section className="newsLetter-section">
+        <div className="section-container">
+          <div className="image-container">
+            <img src={newsLtterImage} alt="House and pool" />
+          </div>
+          <div className="form-container">
+            <h2>Get special offers, and more from travelworld</h2>
+            <p>Rreceive exclusive deals on travel, vacations, and more.</p>
+            <form>
+              <div>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <button type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
     </>
   );

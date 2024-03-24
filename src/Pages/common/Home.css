@@ -97,27 +97,124 @@
   gap: 5rem;
 }
 
+.heading-Ucontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
 .section-heading {
   font-size: 2rem;
   text-align: center;
-  margin: 3rem 0;
-  position: relative;
-}
-.section-heading::before {
-  content: "";
-  width: 10rem;
-  height: 0.4rem;
-  border-radius: 1rem;
-  background-color: #fff1da;
-  position: absolute;
-  top: 2.8rem;
-  right: 40rem;
-
 }
 
+.testimonial-section .heading-Ucontainer {
+  margin: 0 !important;
+}
 
 /* ========>  Testimonial Section  <==========  */
 
 .testimonial-section {
-  margin-top: 10rem;
+  margin-top: 5rem;
+}
+
+/* ========>  Testimonial Section  <==========  */
+.newsLetter-section {
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsLetterHeading{
+  margin: 3rem 0 0 0;
+}
+.section-container {
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+}
+
+.image-container {
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 0rem;
+  border-top-right-radius: 0rem;
+  width: 20vw;
+  padding: 0;
+  margin: 0;
+
+}
+
+.image-container img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background-color: #f3f3f3; 
+  text-align: center;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 0rem;
+  border-top-left-radius: 0rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+
+.form-container p {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+form input[type="email"] {
+  padding: 1.8rem;
+  width: 30vw;
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+}
+
+form div{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: center; */
+  /* display: ; */
+}
+
+.form-container button {
+  position: absolute;
+  right: 1rem;
+  background-color: #008395;
+  color: white;
+  padding: 1.3rem 2rem;
+  border: none;
+  border-radius: 35rem;
+  transition:  all 0.3s ease;
+}
+
+.form-container button:hover {
+  cursor: pointer;
+  background-color: #1296a8;
+  transition:  all 0.3s ease;
+
 }

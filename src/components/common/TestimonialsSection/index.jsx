@@ -58,8 +58,8 @@ export default function TestimonialCarousel() {
                   <img src={user1} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Hamdan Kalyar<br></br>
+                  <span>Booked Hotel</span>
                 </h3>
               </div>
             </div>
@@ -74,6 +74,7 @@ export default function TestimonialCarousel() {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea connodo consequat.
               </p>
@@ -82,8 +83,8 @@ export default function TestimonialCarousel() {
                   <img src={user2} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Jahanzaib Iqbal<br></br>
+                  <span>Booked Car</span>
                 </h3>
               </div>
             </div>
@@ -98,7 +99,6 @@ export default function TestimonialCarousel() {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea connodo consequat.
               </p>
               <div className="details">
@@ -106,8 +106,8 @@ export default function TestimonialCarousel() {
                   <img src={user3} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Taimoor Haider<br></br>
+                  <span>Booked a Travel Package</span>
                 </h3>
               </div>
             </div>
@@ -130,8 +130,8 @@ export default function TestimonialCarousel() {
                   <img src={user4} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Zoahib AHmad<br></br>
+                  <span>Booked a Travel Package</span>
                 </h3>
               </div>
             </div>
@@ -154,8 +154,8 @@ export default function TestimonialCarousel() {
                   <img src={user5} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Zunain Ali<br></br>
+                  <span>Booked Hotel</span>
                 </h3>
               </div>
             </div>
@@ -178,8 +178,8 @@ export default function TestimonialCarousel() {
                   <img src={user6} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Ali Ansari<br></br>
+                  <span>Booked Motel</span>
                 </h3>
               </div>
             </div>
@@ -202,8 +202,8 @@ export default function TestimonialCarousel() {
                   <img src={user7} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Kashif Qureshi<br></br>
+                  <span>Booked Car</span>
                 </h3>
               </div>
             </div>
@@ -226,8 +226,8 @@ export default function TestimonialCarousel() {
                   <img src={user8} />
                 </div>
                 <h3>
-                  Someone Famous<br></br>
-                  <span>creative designer</span>
+                  Haroon Rasheed<br></br>
+                  <span>Booked Car</span>
                 </h3>
               </div>
             </div>
