@@ -28,6 +28,9 @@
 .HeroSection {
   display: flex;
   justify-content: space-between;
+  height: 90vh;
+  overflow: hidden;
+
 }
 
 .HeroImageContainer {
