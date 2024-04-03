@@ -10,6 +10,7 @@ import Footer from "./components/common/Footer";
 import Navbar from "./components/common/Navbar";
 import LoginPage from "./Pages/common/LoginPage/index";
 import SignupPage from "./Pages/common/SignupPage/index";
+import ProfilePage from "./Pages/common/ProfilePage/index"
 import "./App.css";
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/travel-club" element={<TravelClubMain />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
           </Routes>
         </BrowserRouter>
       </div>
