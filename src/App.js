@@ -12,6 +12,8 @@ import LoginPage from "./Pages/common/LoginPage/index";
 import SignupPage from "./Pages/common/SignupPage/index";
 import ProfilePage from "./Pages/common/ProfilePage/index"
 import "./App.css";
+
+
 function App() {
   return (
     <>

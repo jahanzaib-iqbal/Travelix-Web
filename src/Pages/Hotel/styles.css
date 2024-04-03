@@ -1,66 +1,147 @@
-.search-bar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f5f5f5;
+.hotel-search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.hotel-search-input-wrapper {
+  position: relative;
+  /* background-color: lightblue; */
+  margin-right: 10px;
+}
+
+.hotel-search-input-wrapper input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 15rem;
+}
+
+.hotel-search-input-wrapper svg {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hotel-search-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  background-color: #fff;
+  /* color: #333; */
+  outline: none;
+  font-size: 16px;
+
+  /* border: none; */
+}
+
+.hotel-search-select {
+  /* background-color: rgba(0, 0, 0, 0.03); */
+  background-color: rgba(0, 0, 0, 0.03);
+  outline: none;
+  border: none;
+}
+
+.hotel-search-select option {
+  outline: none;
+  /* background-color: red; */
+  padding: 20px;
+  /* padding-top: 5rem; */
+  /* font-size: rem; */
+}
+.hotel-search-btn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #008ec4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 6rem;
+  font-size: 16px;
+  margin-left: 8px;
+
+}
+
+.hotel-search-btn:hover {
+  background-color: #1195c8;
+}
+
+.booking-menu {
+  position: relative;
+  /* width: 200px; */
+  margin: 0 8px;
+}
+
+#hotel-menu-header {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#persons-dropdown {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  left: 0;
+}
+
+#persons-option {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#counter {
+  display: flex;
+  align-items: center;
+}
+
+.personbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size: 16px;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 5rem;
+}
+
+.personbtn:hover {
+  background-color: #ddd;
+}
+
+.fa-chevron-up,
+.fa-chevron-down {
+  transition: transform 0.3s ease;
+}
+
+#persons-dropdown {
+  animation: fadeInDown 0.3s ease;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-  
-  .city-dropdown {
-    position: relative;
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .dropdown-content {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 5px;
-    z-index: 1;
-  }
-  
-  .dropdown-content div {
-    padding: 5px;
-    cursor: pointer;
-  }
-  
-  .date-picker {
-    display: flex;
-  }
-  
-  .dropdown button {
-    margin-left: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .dropdown button span {
-    margin: 0 5px;
-  }
-  
-  .search-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .search-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .search-button svg {
-    margin-right: 5px;
-  }
-  
+}
