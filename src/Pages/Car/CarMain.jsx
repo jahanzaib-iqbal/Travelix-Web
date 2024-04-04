@@ -7,6 +7,7 @@ import image4 from "../../assets/images/Cars/civic (4).jpg";
 import image5 from "../../assets/images/Cars/civic (5).jpg";
 import image6 from "../../assets/images/Cars/civic (6).jpg";
 import CardComponent from "../../components/common/CardComponent";
+import { ReactComponent as BlueUnderline } from "../../assets/icons/underlineBlue.svg";
 
 const CarMain = () => {
   const [carType, setCarType] = useState("");
@@ -77,7 +78,11 @@ const CarMain = () => {
       </div>
 
       <section id="trending-cars-section">
-        <h1 className="section-heading">Top Cars</h1>
+        <div className="heading-Ucontainer" id="trending-car-heading">
+          <h1 className="section-heading" >Trending Cars</h1>
+          <BlueUnderline />
+        </div>
+
         <div id="trending-cars">
           <CardComponent
             images={[image1, image2, image3, image4, image5, image6]}

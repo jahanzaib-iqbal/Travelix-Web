@@ -44,6 +44,10 @@
   /* border: none; */
 }
 
+#trending-hotel-heading svg {
+  width: 14rem !important;
+}
+
 .hotel-search-select {
   /* background-color: rgba(0, 0, 0, 0.03); */
   background-color: rgba(0, 0, 0, 0.03);
@@ -68,7 +72,6 @@
   width: 6rem;
   font-size: 16px;
   margin-left: 8px;
-
 }
 
 .hotel-search-btn:hover {

@@ -2,29 +2,17 @@ import React, { useState } from "react";
 import "./styles.css";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { ReactComponent as BlueUnderline } from "../../assets/icons/underlineBlue.svg";
+import image1 from "../../assets/images/Hotels/image (1).jpg";
+import image2 from "../../assets/images/Hotels/image (2).jpg";
+import image3 from "../../assets/images/Hotels/image (3).jpg";
+import image4 from "../../assets/images/Hotels/image (4).jpg";
+import image5 from "../../assets/images/Hotels/image (5).jpg";
+import image6 from "../../assets/images/Hotels/image (6).jpg";
+
+import CardComponent from "../../components/common/CardComponent";
 
 const HotelMain = () => {
-  // const [city, setCity] = useState("");
-  // const [checkInDate, setCheckInDate] = useState(null);
-  // const [checkOutDate, setCheckOutDate] = useState(null);
-  // const [rooms, setRooms] = useState(1);
-  // const [adults, setAdults] = useState(1);
-  // const [children, setChildren] = useState(0);
-  // const [showDropdown, setShowDropdown] = useState(false);
-
-  // const handleRoomsChange = (type) => {
-  //   if (type === "rooms") {
-  //     setRooms(rooms + 1);
-  //   } else if (type === "adults") {
-  //     setAdults(adults + 1);
-  //   } else if (type === "children") {
-  //     setChildren(children + 1);
-  //   }
-  // };
-
-  // const handleDropdownToggle = () => {
-  //   setShowDropdown(!showDropdown);
-  // };
   const [startDate, setStartDate] = useState();
   const [endDate, setEndDate] = useState();
 
@@ -56,8 +44,8 @@ const HotelMain = () => {
           <option value="city1">Lahore</option>
           <option value="city2">Karachi</option>
           <option value="city3">Muzaffargarh</option>
-          <option value="city3">Multan</option>
-          <option value="city3">Pattoki</option>
+          <option value="city4">Multan</option>
+          <option value="city5">Pattoki</option>
         </select>
 
         <DatePicker
@@ -149,9 +137,64 @@ const HotelMain = () => {
 
         <button className="hotel-search-btn">Search</button>
       </div>
-      {/* =========== */}
 
-      {/* ========== */}
+      <div className="heading-Ucontainer" id="trending-hotel-heading">
+        <h1 className="section-heading">Trending Hotel </h1>
+        <BlueUnderline />
+      </div>
+
+      <div id="trending-cars">
+        <CardComponent
+          images={[image1, image2, image3, image4, image5, image6]}
+          title="Honda Civic"
+          city="Lahore"
+          description="Description Lorem ipsum dolor sit"
+          price="231"
+          reviews={4.8}
+        />
+        <CardComponent
+          images={[image2, image1, image3, image4, image5, image6]}
+          title="Honda Civic"
+          city="Lahore"
+          description="Description Lorem ipsum dolor sit"
+          price="231"
+          reviews={4.8}
+        />
+        <CardComponent
+          images={[image4, image1, image2, image4, image5, image6]}
+          title="Honda Civic"
+          city="Lahore"
+          description="Description Lorem ipsum dolor sit"
+          price="231"
+          reviews={4.8}
+        />
+        <CardComponent
+          images={[image5, image2, image3, image1, image5, image6]}
+          title="Honda Civic"
+          city="Lahore"
+          description="Description Lorem ipsum dolor sit"
+          price="231"
+          reviews={4.8}
+        />
+        <CardComponent
+          images={[image6, image2, image3, image4, image5, image6]}
+          title="Honda Civic"
+          city="Lahore"
+          description="Description Lorem ipsum dolor sit"
+          price="231"
+          reviews={4.8}
+        />
+        <CardComponent
+          images={[image1, image2, image3, image4, image5, image6]}
+          title="Honda Civic"
+          city="Lahore"
+          description="Description Lorem ipsum dolor sit"
+          price="231"
+          reviews={4.8}
+        />
+      </div>
+
+      
     </>
   );
 };
