@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.css";
 import { ReactComponent as BlueUnderline } from "../../assets/icons/underlineBlue.svg";
-import image1 from "../../assets/images/Travel/travel (1).jpg";
-import image2 from "../../assets/images/Travel/travel (2).jpg";
-import image3 from "../../assets/images/Travel/travel (3).jpg";
-import image4 from "../../assets/images/Travel/travel (4).jpg";
-import image5 from "../../assets/images/Travel/travel (5).jpg";
-import image6 from "../../assets/images/Travel/travel (6).jpg";
+
 import CardComponent from "../../components/common/CardComponent";
+import TravelData from "../../assets/JSON/TravelData.json";
 
 const TravelClubMain = () => {
+  const [fromCity, setFromCity] = useState();
+  const [toCity, setToCity] = useState();
+  const [priceRange, setPriceRange] = useState();
+  const [travelClubs, setTravelClubs] = useState(TravelData);
+
+  useEffect(() => {
+    setTravelClubs(TravelData);
+  }, [TravelData]);
+
   return (
     <>
       <div className="travel-search-bar-container">
@@ -50,54 +55,15 @@ const TravelClubMain = () => {
         </div>
 
         <div id="trending-cars">
-          <CardComponent
-            images={[image1, image2, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image2, image1, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image4, image1, image2, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image5, image2, image3, image1, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image6, image2, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image1, image2, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
+          {travelClubs.map((club) => (
+            <CardComponent
+              images={club.img}
+              title={club.title}
+              city={club.place}
+              reviews={club.rating}
+              price={club.price}
+            />
+          ))}
         </div>
       </section>
     </>

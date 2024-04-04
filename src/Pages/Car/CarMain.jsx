@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import "./styles.css";
-import image1 from "../../assets/images/Cars/civic (1).jpg";
-import image2 from "../../assets/images/Cars/civic (2).jpg";
-import image3 from "../../assets/images/Cars/civic (3).jpg";
-import image4 from "../../assets/images/Cars/civic (4).jpg";
-import image5 from "../../assets/images/Cars/civic (5).jpg";
-import image6 from "../../assets/images/Cars/civic (6).jpg";
 import CardComponent from "../../components/common/CardComponent";
 import { ReactComponent as BlueUnderline } from "../../assets/icons/underlineBlue.svg";
+import carData from "../../assets/JSON/CarData.json";
+import { useEffect } from "react";
 
 const CarMain = () => {
   const [carType, setCarType] = useState("");
   const [priceRange, setPriceRange] = useState("");
   const [location, setLocation] = useState("");
+  const [cars, setCars] = useState(carData);
+
+  useEffect(() => {
+    setCars(carData);
+  }, [carData]);
 
   const handleSearch = () => {
     // Handle search functionality here
@@ -23,7 +24,7 @@ const CarMain = () => {
     <>
       <div className="search-bar-container">
         <div className="search-input-wrapper">
-          <input type="text" placeholder="Search..." />
+          <input type="text" placeholder="Car Name..." />
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,9 +69,9 @@ const CarMain = () => {
           className="car-search-select"
         >
           <option value="">Location</option>
-          <option value="city1">City 1</option>
-          <option value="city2">City 2</option>
-          <option value="city3">City 3</option>
+          <option value="Lahore">City 1</option>
+          <option value="Islamabad">City 2</option>
+          <option value="Multan">City 3</option>
         </select>
         <button className="car-search-btn" onClick={handleSearch}>
           Search
@@ -79,59 +80,20 @@ const CarMain = () => {
 
       <section id="trending-cars-section">
         <div className="heading-Ucontainer" id="trending-car-heading">
-          <h1 className="section-heading" >Trending Cars</h1>
+          <h1 className="section-heading">Trending Cars</h1>
           <BlueUnderline />
         </div>
 
         <div id="trending-cars">
-          <CardComponent
-            images={[image1, image2, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image2, image1, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image4, image1, image2, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image5, image2, image3, image1, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image6, image2, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
-          <CardComponent
-            images={[image1, image2, image3, image4, image5, image6]}
-            title="Honda Civic"
-            city="Lahore"
-            description="Description Lorem ipsum dolor sit"
-            price="231"
-            reviews={4.8}
-          />
+          {cars.map((car) => (
+            <CardComponent
+              images={car.images}
+              title={car.carModel}
+              city={car.location}
+              price={car.price}
+              reviews={car.rating}
+            />
+          ))}
         </div>
       </section>
     </>
