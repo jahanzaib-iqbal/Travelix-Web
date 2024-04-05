@@ -17,6 +17,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
+  font-size: 16px;
 
   width: 15rem;
 }
@@ -32,7 +33,7 @@
 }
 
 #trending-car-heading svg {
-  width: 14rem !important;
+  width: 6rem !important;
 }
 
 .car-search-select {
@@ -49,26 +50,29 @@
 .car-search-select {
   background-color: rgba(0, 0, 0, 0.03);
   outline: none;
+  font-size: 16px;
 }
 
 .car-search-select option {
   outline: none;
   /* background-color: red; */
-  padding: 20px;
+  /* padding: 20px; */
   /* padding-top: 5rem; */
-  /* font-size: rem; */
 }
-.car-search-btn {
+.car-reset-btn {
   padding: 10px;
   border-radius: 5px;
   background-color: #008ec4;
   color: #fff;
   border: none;
+  font-size: 16px;
+  margin-left: 8px;
+
   cursor: pointer;
   width: 5rem;
 }
 
-.car-search-btn:hover {
+.car-reset-btn:hover {
   background-color: #1195c8;
 }
 

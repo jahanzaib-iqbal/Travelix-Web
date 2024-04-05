@@ -37,7 +37,6 @@
   background-color: #1195c8;
 }
 
-
-
-
-
+#trending-travel-heading svg {
+  width: 11rem !important;
+}

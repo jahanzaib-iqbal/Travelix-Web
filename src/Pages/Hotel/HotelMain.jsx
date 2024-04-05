@@ -28,6 +28,15 @@ const HotelMain = () => {
     setFilteredHotels(filtered);
   }, [selectedCity, adults, children, hotels, searchInput]);
 
+  const handleReset = () => {
+    setStartDate();
+    setEndDate();
+    setAdults(0);
+    setChildren(0);
+    setRooms(0);
+    setSelectedCity("All Cities");
+    setSearchInput("");
+  };
   const toggleDropdown = () => {
     setShowDropdown(!showDropdown);
   };
@@ -177,6 +186,10 @@ const HotelMain = () => {
             </div>
           )}
         </div>
+
+        <button className="hotel-reset-btn" onClick={handleReset}>
+          Reset
+        </button>
       </div>
 
       <div className="heading-Ucontainer" id="trending-hotel-heading">

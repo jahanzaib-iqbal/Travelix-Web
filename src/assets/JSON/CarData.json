@@ -4,11 +4,11 @@
       "_id": "101",
       "carModel": "Toyota Corolla 2017",
       "carType": "Sedan",
-      "location": "Faislabad",
+      "location": "Islamabad",
       "rentalCompanyName": "City Drive Rentals",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
       "duration": "Per day",
-      "price": 50,
+      "price": 1250,
       "maxPersonsAllowed": 5,
       "features": [
         "🌬️ Air conditioning",
@@ -37,52 +37,16 @@
         "👥 Additional driver option"
       ]
     },
+    
     {
       "_id": "101",
-      "carModel": "Toyota Corolla",
+      "carModel": "Honda Civic 2017",
       "carType": "Sedan",
-      "location": "Los Angeles",
-      "rentalCompanyName": "City Drive Rentals",
-      "images": ["toyota_corolla_1.jpg", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
-      "duration": "Per day",
-      "price": 50,
-      "maxPersonsAllowed": 5,
-      "features": [
-        "🌬️ Air conditioning",
-        "⚙️ Automatic transmission",
-        "📍 GPS navigation",
-        "📱 Bluetooth connectivity",
-        "👶 Child seat available upon request",
-        "🛣️ Unlimited mileage",
-        "🆘 Roadside assistance"
-      ],
-      "rating": 4.5,
-      "noOfReviews": 120,
-      "owner": {
-        "image": "https://example.com/images/owner.jpg",
-        "name": "John Doe",
-        "email": "johndoe@example.com"
-      },
-      "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
-      "pickupLocation": "Downtown LA",
-      "dropoffLocation": "Downtown LA",
-      "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
-      "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
-      "additionalServices": [
-        "📍 GPS rental",
-        "👶 Child seat rental",
-        "👥 Additional driver option"
-      ]
-    },
-    {
-      "_id": "101",
-      "carModel": "Toyota Corolla 2017",
-      "carType": "Sedan",
-      "location": "Faislabad",
+      "location": "Lahore",
       "rentalCompanyName": "City Drive Rentals",
       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
       "duration": "Per day",
-      "price": 50,
+      "price": 11050,
       "maxPersonsAllowed": 5,
       "features": [
         "🌬️ Air conditioning",
@@ -111,52 +75,16 @@
         "👥 Additional driver option"
       ]
     },
+    
     {
       "_id": "101",
-      "carModel": "Toyota Corolla 2017",
-      "carType": "Sedan",
-      "location": "Faislabad",
-      "rentalCompanyName": "City Drive Rentals",
-      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
-      "duration": "Per day",
-      "price": 50,
-      "maxPersonsAllowed": 5,
-      "features": [
-        "🌬️ Air conditioning",
-        "⚙️ Automatic transmission",
-        "📍 GPS navigation",
-        "📱 Bluetooth connectivity",
-        "👶 Child seat available upon request",
-        "🛣️ Unlimited mileage",
-        "🆘 Roadside assistance"
-      ],
-      "rating": 4.5,
-      "noOfReviews": 120,
-      "owner": {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
-        "name": "John Doe",
-        "email": "johndoe@example.com"
-      },
-      "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
-      "pickupLocation": "Downtown LA",
-      "dropoffLocation": "Downtown LA",
-      "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
-      "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
-      "additionalServices": [
-        "📍 GPS rental",
-        "👶 Child seat rental",
-        "👥 Additional driver option"
-      ]
-    },
-    {
-      "_id": "101",
-      "carModel": "Toyota Corolla",
+      "carModel": "Fortuner",
       "carType": "SUV",
-      "location": "Los Angeles",
+      "location": "Muzaffargarh",
       "rentalCompanyName": "City Drive Rentals",
-      "images": ["toyota_corolla_1.jpg", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
       "duration": "Per day",
-      "price": 50,
+      "price": 29850,
       "maxPersonsAllowed": 5,
       "features": [
         "🌬️ Air conditioning",
@@ -170,7 +98,7 @@
       "rating": 4.5,
       "noOfReviews": 120,
       "owner": {
-        "image": "https://example.com/images/owner.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
         "name": "John Doe",
         "email": "johndoe@example.com"
       },
@@ -187,50 +115,13 @@
     },
     {
       "_id": "101",
-      "carModel": "Toyota Corolla",
-      "carType": "Bus",
-      "location": "Los Angeles",
-      "rentalCompanyName": "City Drive Rentals",
-      "images": ["toyota_corolla_1.jpg", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
-      "duration": "Per day",
-      "price": 50,
-      "maxPersonsAllowed": 5,
-      "features": [
-        "🌬️ Air conditioning",
-        "⚙️ Automatic transmission",
-        "📍 GPS navigation",
-        "📱 Bluetooth connectivity",
-        "👶 Child seat available upon request",
-        "🛣️ Unlimited mileage",
-        "🆘 Roadside assistance"
-      ],
-      "rating": 4.5,
-      "noOfReviews": 120,
-      "owner": {
-        "image": "https://example.com/images/owner.jpg",
-        "name": "John Doe",
-        "email": "johndoe@example.com"
-      },
-      "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
-      "pickupLocation": "Downtown LA",
-      "dropoffLocation": "Downtown LA",
-      "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
-      "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
-      "additionalServices": [
-        "📍 GPS rental",
-        "👶 Child seat rental",
-        "👥 Additional driver option"
-      ]
-    },
-    {
-      "_id": "101",
-      "carModel": "Toyota Corolla",
+      "carModel": "Fortuner",
       "carType": "SUV",
-      "location": "Los Angeles",
+      "location": "Karachi",
       "rentalCompanyName": "City Drive Rentals",
-      "images": ["toyota_corolla_1.jpg", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+      "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
       "duration": "Per day",
-      "price": 50,
+      "price": 13050,
       "maxPersonsAllowed": 5,
       "features": [
         "🌬️ Air conditioning",
@@ -244,7 +135,7 @@
       "rating": 4.5,
       "noOfReviews": 120,
       "owner": {
-        "image": "https://example.com/images/owner.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
         "name": "John Doe",
         "email": "johndoe@example.com"
       },
@@ -261,11 +152,11 @@
     },
     {
       "_id": "101",
-      "carModel": "Toyota Corolla",
+      "carModel": "Q Connect",
       "carType": "Bus",
-      "location": "Los Angeles",
+      "location": "Karachi",
       "rentalCompanyName": "City Drive Rentals",
-      "images": ["toyota_corolla_1.jpg", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+      "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
       "duration": "Per day",
       "price": 50,
       "maxPersonsAllowed": 5,
@@ -281,7 +172,7 @@
       "rating": 4.5,
       "noOfReviews": 120,
       "owner": {
-        "image": "https://example.com/images/owner.jpg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
         "name": "John Doe",
         "email": "johndoe@example.com"
       },
@@ -296,4 +187,997 @@
         "👥 Additional driver option"
       ]
     }
+
+,
+{
+  "_id": "101",
+  "carModel": "Toyota Corolla 2017",
+  "carType": "Sedan",
+  "location": "Islamabad",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 19250,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Honda Civic 2017",
+  "carType": "Sedan",
+  "location": "Multan",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 52130,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 34150,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 1350,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Q Connect",
+  "carType": "Bus",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 13250,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+}
+
+
+
+,
+{
+  "_id": "101",
+  "carModel": "Toyota Corolla 2017",
+  "carType": "Sedan",
+  "location": "Islamabad",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 21450,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Honda Civic 2017",
+  "carType": "Sedan",
+  "location": "Lahore",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 16200,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Q Connect",
+  "carType": "Bus",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+}
+
+
+
+,
+{
+  "_id": "101",
+  "carModel": "Toyota Corolla 2017",
+  "carType": "Sedan",
+  "location": "Islamabad",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Honda Civic 2017",
+  "carType": "Sedan",
+  "location": "Lahore",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Q Connect",
+  "carType": "Bus",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Q Connect",
+  "carType": "Bus",
+  "location": "Multan",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+}
+
+
+
+,
+{
+  "_id": "101",
+  "carModel": "Toyota Corolla 2017",
+  "carType": "Sedan",
+  "location": "Multan",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Honda Civic 2017",
+  "carType": "Sedan",
+  "location": "Muzaffargarh",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Muzaffargarh",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Q Connect",
+  "carType": "Bus",
+  "location": "Multan",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+}
+
+
+
+,
+{
+  "_id": "101",
+  "carModel": "Toyota Corolla 2017",
+  "carType": "Sedan",
+  "location": "Islamabad",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Honda Civic 2017",
+  "carType": "Sedan",
+  "location": "Lahore",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Fortuner",
+  "carType": "SUV",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+},
+{
+  "_id": "101",
+  "carModel": "Q Connect",
+  "carType": "Bus",
+  "location": "Karachi",
+  "rentalCompanyName": "City Drive Rentals",
+  "images": ["https://cdn.britannica.com/72/146072-050-124A752E/Greyhound-bus.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s", "toyota_corolla_2.jpg", "toyota_corolla_3.jpg"],
+  "duration": "Per day",
+  "price": 50,
+  "maxPersonsAllowed": 5,
+  "features": [
+    "🌬️ Air conditioning",
+    "⚙️ Automatic transmission",
+    "📍 GPS navigation",
+    "📱 Bluetooth connectivity",
+    "👶 Child seat available upon request",
+    "🛣️ Unlimited mileage",
+    "🆘 Roadside assistance"
+  ],
+  "rating": 4.5,
+  "noOfReviews": 120,
+  "owner": {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49pwuPgji8IHwxw3A5KsytmlgYhIEoOOyBHaiHNgRNg&s",
+    "name": "John Doe",
+    "email": "johndoe@example.com"
+  },
+  "availableDates": ["10 Apr, 2024 - 20 Apr, 2024", "05 May, 2024 - 15 May, 2024"],
+  "pickupLocation": "Downtown LA",
+  "dropoffLocation": "Downtown LA",
+  "termsAndConditions": "Driver must be at least 25 years old with a valid driver's license and credit card.",
+  "insuranceOptions": ["Collision Damage Waiver", "Personal Accident Insurance", "Theft Protection"],
+  "additionalServices": [
+    "📍 GPS rental",
+    "👶 Child seat rental",
+    "👥 Additional driver option"
+  ]
+}
+
+   
+   
   ]

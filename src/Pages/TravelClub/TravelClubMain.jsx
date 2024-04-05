@@ -45,12 +45,12 @@ const TravelClubMain = () => {
           <option value="city5">&gt;20000</option>
         </select>
 
-        <button className="travel-search-btn">Search</button>
+        <button className="travel-search-btn">Reset</button>
       </div>
 
       <section>
-        <div className="heading-Ucontainer" id="trending-hotel-heading">
-          <h1 className="section-heading">Top Travel Clubs</h1>
+        <div className="heading-Ucontainer" id="trending-travel-heading">
+          <h1 className="section-heading">Travel Clubs</h1>
           <BlueUnderline />
         </div>
 
